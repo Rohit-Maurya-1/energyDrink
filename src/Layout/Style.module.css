@@ -1,0 +1,12 @@
+.footerbackground {
+    background: url('../../src/images/themes/Groovy/assets/foot.png') no-repeat;
+    background-size: cover;
+    color: white;
+    height: 170px;
+    width: 100%;
+  }
+  
+  .items{
+    color: white;
+    font-size: 15px;
+  }

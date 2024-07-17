@@ -1,0 +1,134 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.lychee{
+    background: url(images/lychee/Group.html\ 113.png);
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mango{
+    background: url(images/Mango/Group.html\ 122.png);
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.guava{
+    /*background: url(./images/Guava/Group\ 131.png);*/
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.anar{
+    background: url(images/Anar/Group.html\ 140.png);
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lemon{
+   /* background: url(./images/Lemon/Group\ 147.png);*/
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mix{
+    background: url(images/Mix/Group.html\ 155.png);
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .lychee .display-5{
+    font-size: 96px;
+line-height: 104.9%;
+
+
+letter-spacing: 0.02em;
+
+
+
+color: #FD3955!important;
+} */
+
+
+
+@media(min-width:1300px){
+    .mix{
+        min-height:550px!important;
+    }
+    .anar{
+        min-height:800px!important;
+    }
+    .lemon{
+        min-height:550px!important;
+    }
+    .guava{
+        min-height:550px!important;
+    }
+    .mango{
+        min-height:800px!important;
+    }
+    .lychee{
+        min-height:800px!important;
+    }
+}
+
+.lychee .text{
+    font-weight: bold;
+    font-style: normal;
+
+font-size: 20px;
+line-height: 201%;
+color: #FD3955!important;
+}
+
+ .text{
+    font-weight: bold;
+    font-style: normal;
+
+font-size: 20px;
+line-height: 201%;
+color: #FD3955!important;
+}
+
+#lychee-shop-now .col-md-2{
+    border-right: 2px solid #FD3955;
+}
+#mango-shop-now .col-md-2{
+    border-right: 2px solid #FF6F00;
+}
+#guava-shop-now .col-md-2{
+    border-right: 2px solid #48B862;
+}
+#anar-shop-now .col-md-2{
+    border-right: 2px solid #FD3955;
+}
+#lemon-shop-now .col-md-2{
+    border-right: 2px solid #70C513;
+}
+
+
+#lychee-sip .col-md-7{
+
+    background: #FFAFD4 ;
+   
+}
+
+#mango-sip .col-md-7{
+    background:#FFD62D;
+}
+
+#lemon-sip .col-md-7{
+    background:#FFEA00;
+}
+#guava-sip .col-md-7{
+    background:#48B862;
+}
+#anar-sip .col-md-7{
+    background:#FD3955;
+}
+#mix-sip .col-md-7{
+    background:#FF6F00;
+}

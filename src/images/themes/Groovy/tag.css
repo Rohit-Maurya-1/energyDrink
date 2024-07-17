@@ -1,0 +1,936 @@
+@media(min-width:1300px){
+
+    #lychee-specs{
+        padding: 60px 0;
+    }
+    #mix-specs{
+        padding: 60px 0;
+    }
+    #mango-specs{
+        padding: 60px 0;
+    }
+    #lemon-specs{
+        padding: 60px 0;
+    }
+    #guava-specs{
+        padding: 60px 0;
+    }
+    #lychee-shop-now{
+        padding: 60px 0;
+    }
+    #mix-shop-now{
+        padding: 60px 0;
+    }
+    #mango-shop-now{
+        padding: 60px 0;
+    }
+    #guava-shop-now{
+        padding: 60px 0;
+    }
+    #lemon-shop-now{
+        padding: 60px 0;
+    }
+    #lychee-icons{
+        padding: 60px 0;
+    }
+  #lychee-sipp{
+      padding-bottom: 50px;
+  }
+  .no{
+    font-size: 35px!important;
+}
+
+    .lychee .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+    color: #FD3955!important;
+    }
+    .mix .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+    color: #ffffff!important;
+    }
+    .mango .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+ 
+    }
+    .lemon .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+ 
+    }
+    .anar .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+ 
+    }
+    .guava .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+ 
+    }
+    #lychee-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #lemon-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #anar-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #mango-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #guava-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #mix-shop-now .d-flex{
+        margin-top: 200px;
+    }
+
+    .head .display-5{    font-style: normal;
+        font-weight: 200;
+        font-size: 183px;
+        line-height: 184px;
+
+    }
+    .home .head{
+        min-height: 750px;
+    }
+    .le{
+        position: relative;
+        bottom:0%;
+        top: 60px;
+        left: 0;
+        right: 0;
+    }
+    #lychee-specs .col-md-1{
+   
+        border-right: 2px solid #FD3955;
+        max-height: 360px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #mango-specs .col-md-1{
+   
+        border-right: 2px solid #FF6F00;
+        max-height: 420px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #guava-specs .col-md-1{
+   
+        border-right: 2px solid  #48B862;
+        max-height: 420px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #lychee-icons{
+          padding: 60px 0!important;
+      }
+      #lemon-specs .col-md-1{
+   
+        border-right: 2px solid  #70C513;
+        max-height: 420px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #mix-specs .col-md-1{
+   
+        border-right: 2px solid  #FF6F00;
+        max-height: 290px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #lychee-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFAFD4 50%);
+       
+    }
+    #guava-gallery{
+        background: linear-gradient(90deg, transparent 50%, #48B862 50%);
+    }
+    #anar-gallery {
+     
+
+        background: linear-gradient(90deg, transparent 50%,  #FD3955 50%);
+        padding: 48px 0!important;
+    }
+    .gallery {
+        padding: 24px 0!important;
+        
+            
+         }
+    #mango-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFD62D 50%);
+       
+    }
+    #mix-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FF6F00 50%);
+       
+    }
+    #lemon-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFEA00 50%);
+       
+    }
+    #lychee-shop-now {
+
+        background: linear-gradient(180deg, #FFAFD4 50%, transparent 50%);
+       
+    }
+    #anar-shop-now {
+
+        background: linear-gradient(180deg, #FD3955 50%, transparent 50%);
+        padding: 60px 0!important;
+    }
+    #mix-shop-now {
+
+        background: linear-gradient(180deg,  #FF6F00 50%, transparent 50%);
+       
+    }
+    #lemon-shop-now {
+
+        background: linear-gradient(180deg, #FFEA00 50%, transparent 50%);
+       
+    }
+    #mango-shop-now {
+
+        background: linear-gradient(180deg,  #FFD62D 50%, transparent 50%);
+       
+    }
+    #guava-shop-now {
+
+        background: linear-gradient(180deg,  #48B862 50%, transparent 50%);
+       
+    }
+   
+
+}
+@media (max-width: 1299px) and (min-width: 1199px){
+    #lychee-specs{
+        padding: 60px 0;
+    }
+    #mix-specs{
+        padding: 60px 0;
+    }
+    #mango-specs{
+        padding: 60px 0;
+    }
+    #lemon-specs{
+        padding: 60px 0;
+    }
+    #guava-specs{
+        padding: 60px 0;
+    }
+    #lychee-shop-now{
+        padding: 60px 0;
+    }
+    #mix-shop-now{
+        padding: 60px 0;
+    }
+    #mango-shop-now{
+        padding: 60px 0;
+    }
+    #lemon-shop-now{
+        padding: 60px 0;
+    }
+    #guava-shop-now{
+        padding: 60px 0;
+    }
+    
+    #lychee-icons{
+        padding: 60px 0;
+    }
+    #lychee-sipp{
+        padding-bottom: 50px;
+    }
+    .lychee .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+ 
+    
+    color: #FD3955!important;
+    }
+    .mix .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+ 
+    
+    color: #ffffff!important;
+    }
+    .lemon .display-5{
+        font-size: 66px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+  
+    
+    }
+    .mango .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+  
+    
+    }
+    .anar .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+  
+    
+    }
+    .guava .display-5{
+        font-size: 96px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+  
+    
+    }
+    #lychee-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #mango-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #anar-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #guava-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #lemon-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #mix-shop-now .d-flex{
+        margin-top: 200px;
+    }
+
+    .head .display-5{
+            font-style: normal;
+        font-weight: 200;
+        font-size: 143px;
+        line-height: 154px;
+    }
+    
+    .head{
+        min-height: 700px;
+    }
+    #lychee-specs .col-md-1{
+   
+        border-right: 2px solid #FD3955;
+        max-height: 420px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #mango-specs .col-md-1{
+   
+        border-right: 2px solid #FF6F00;
+        max-height: 360px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #guava-specs .col-md-1{
+   
+        border-right: 2px solid #48B862;
+        max-height: 360px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #lemon-specs .col-md-1{
+   
+        border-right: 2px solid #70C513;
+        max-height: 360px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #mix-specs .col-md-1{
+   
+        border-right: 2px solid  #FF6F00;
+        max-height: 280px;
+        position: relative;
+        top: 178px;
+        left: 45px;
+        right: 0;
+      }
+      #lychee-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFAFD4 50%);
+       
+    }
+    #anar-gallery {
+
+        padding: 60px 0!important;
+        background: linear-gradient(90deg, transparent 50%,  #FD3955 50%);
+       
+    }
+    .gallery {
+        padding: 24px 0!important;
+        
+            
+         }
+    #mix-gallery {
+
+        background: linear-gradient(90deg, transparent 50%,  #FF6F00 50%);
+       
+    }
+    #lemon-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFEA00 50%);
+       
+    }
+
+    #mango-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFD62D 50%);
+       
+    }
+    #guava-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #48B862 50%);
+       
+    }
+    #lychee-shop-now {
+
+        background: linear-gradient(180deg, #FFAFD4 50%, transparent 50%);
+       
+    }
+    
+    #lemon-shop-now {
+
+        background: linear-gradient(180deg,#FFEA00 50%, transparent 50%);
+       
+    }
+   
+    #guava-shop-now {
+
+        background: linear-gradient(180deg, #48B862 50%, transparent 50%);
+       
+    }
+    #anar-shop-now {
+
+        background: linear-gradient(180deg, #FD3955 50%, transparent 50%);
+        padding: 60px 0!important;
+       
+    }
+
+#mango-shop-now {
+
+    background: linear-gradient(180deg, #FFD62D 50%, transparent 50%);
+   
+}
+#mix-shop-now {
+
+    background: linear-gradient(180deg, #FF6F00 50%, transparent 50%);
+   
+}
+.no{
+    font-size: 35px!important;
+}
+   
+
+}
+
+@media (max-width: 1198px) and (min-width: 768px){
+    #lychee-specs{
+        padding: 60px 0;
+    }
+    #mix-specs{
+        padding: 60px 0;
+    }
+    #mango-specs{
+        padding: 60px 0;
+    }
+    #lemon-specs{
+        padding: 60px 0;
+    }
+    #guava-specs{
+        padding: 60px 0;
+    }
+  
+  
+    #lychee-shop-now{
+        padding: 60px 0;
+    }
+    #mix-shop-now{
+        padding: 60px 0;
+    }
+    #mango-shop-now{
+        padding: 60px 0;
+    }
+    #lemon-shop-now{
+        padding: 60px 0;
+    }
+    #guava-shop-now{
+        padding: 60px 0;
+    }
+    #lychee-icons{
+        padding: 60px 0;
+    }
+    #lychee-sipp{
+        padding-bottom: 50px;
+    }
+    .lychee .display-5{
+        font-size: 56px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+    color: #FD3955!important;
+    }
+    .mix .display-5{
+        font-size: 56px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+    color: #ffffff!important;
+    }
+    .mango .display-5{
+        font-size: 56px;
+        line-height: 104.9%;
+        /* identical to box height, or 101px */
+        
+        letter-spacing: 0.02em;
+    }
+    .anar .display-5{
+        font-size: 56px;
+        line-height: 104.9%;
+        /* identical to box height, or 101px */
+        
+        letter-spacing: 0.02em;
+    }
+    .lemon .display-5{
+        font-size: 56px;
+        line-height: 104.9%;
+        /* identical to box height, or 101px */
+        
+        letter-spacing: 0.02em;
+    }
+    .guava .display-5{
+        font-size: 56px;
+        line-height: 104.9%;
+        /* identical to box height, or 101px */
+        
+        letter-spacing: 0.02em;
+    }
+    
+    #lychee-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #mango-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #mango-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #guava-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #lemon-shop-now .d-flex{
+        margin-top: 200px;
+    }
+    #mix-shop-now .d-flex{
+        margin-top: 200px;
+    }
+
+
+
+    .head .display-5{
+            font-style: normal;
+        font-weight: 200;
+        font-size: 153px;
+        line-height: 204px;
+    }
+    #lychee-specs .col-md-1{
+   
+        display: none;
+      }
+      #mango-specs .col-md-1{
+   
+        display: none;
+      }
+      #lemon-specs .col-md-1{
+   
+        display: none;
+      }
+      #guava-specs .col-md-1{
+   
+        display: none;
+      }
+      #mix-specs .col-md-1{
+   
+        display: none;
+      }
+
+      #lychee-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFAFD4 50%);
+       
+    }
+    #anar-gallery {
+        padding: 48px 0!important;
+
+        background: linear-gradient(90deg, transparent 50%,  #FD3955 50%);
+       
+    }
+    .gallery {
+        padding: 24px 0!important;
+        
+            
+         }
+    #mix-gallery {
+
+        background: linear-gradient(90deg, transparent 50%,   #FF6F00 50%);
+       
+    }
+    #lemon-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFEA00 50%);
+       
+    }
+    #mango-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #FFD62D 50%);
+       
+    }
+         
+    #guava-gallery {
+
+        background: linear-gradient(90deg, transparent 50%, #48B862 50%);
+       
+    }
+    #lychee-shop-now {
+
+        background: linear-gradient(180deg, #FFAFD4 50%, transparent 50%);
+       
+    }
+    #guava-shop-now {
+
+        background: linear-gradient(180deg, #48B862 50%, transparent 50%);
+       
+    }
+    #mango-shop-now {
+
+        background: linear-gradient(180deg, #FFD62D 50%, transparent 50%);
+       
+    }
+    #lemon-shop-now {
+
+        background: linear-gradient(180deg, #FFEA00 50%, transparent 50%);
+       
+    }
+    #anar-shop-now {
+
+        background: linear-gradient(180deg, #FD3955 50%, transparent 50%);
+        padding: 60px 0!important;
+    }
+    #mix-shop-now {
+
+        background: linear-gradient(180deg, #FF6F00 50%, transparent 50%);
+       
+    }
+    .no{
+        font-size: 25px!important;
+    }
+
+}
+
+@media (max-width: 768px){
+    .no{
+        font-size: 25px!important;
+    }
+    #lychee-specs{
+        padding: 20px 0;
+    }
+    #mix-specs{
+        padding: 20px 0;
+    }
+    #mango-specs{
+        padding: 20px 0;
+    }
+    #lemon-specs{
+        padding: 20px 0;
+    }
+    #guava-specs{
+        padding: 20px 0;
+    }
+  
+        #lychee-sipp{
+            padding-bottom: 50px;
+        }
+   
+    #lychee-shop-now{
+        padding: 20px 0;
+    }
+    #mix-shop-now{
+        padding: 20px 0;
+    }
+    #mango-shop-now{
+        padding: 20px 0;
+    }
+    #lemon-shop-now{
+        padding: 20px 0;
+    }
+    #guava-shop-now{
+        padding: 20px 0;
+    }
+    #lychee-icons{
+        padding: 20px 0;
+    }
+    .lychee .display-5{
+        font-size: 56px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+    color: #FD3955!important;
+    }
+    .mix .display-5{
+        font-size: 56px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+    color: #ffffff!important;
+    }
+    .lemon .display-5{
+        font-size: 56px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+    color: #FD3955!important;
+    }
+    .guava .display-5{
+        font-size: 56px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+   
+    }
+    .anar .display-5{
+        font-size: 56px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+    
+   
+    }
+    .mango .display-5{
+        font-size: 56px;
+    line-height: 104.9%;
+    /* identical to box height, or 101px */
+    
+    letter-spacing: 0.02em;
+    
+    /* Color_Pomegranate */
+ 
+   
+    }
+    #lychee-shop-now .d-flex{
+        margin-top: 0;
+    }
+    #lemon-shop-now .d-flex{
+        margin-top: 0;
+    }
+    #mango-shop-now .d-flex{
+        margin-top: 0;
+    }
+    #anar-shop-now .d-flex{
+        margin-top: 0;
+    }
+    #guava-shop-now .d-flex{
+        margin-top: 0px;
+    }
+    #mix-shop-now .d-flex{
+        margin-top: 0px;
+    }
+
+    .head{
+        min-height: 700px;
+    }
+
+    .head .display-5{
+            font-style: normal;
+        font-weight: 200;
+        font-size: 103px;
+        line-height: 104px;
+    }
+    #lychee-specs .col-md-1{
+   
+        display: none;
+      }
+      #guava-specs .col-md-1{
+   
+        display: none;
+      }
+      #lychee-gallery {
+
+        background:none!important;
+       
+    }
+    #guava-gallery {
+
+        background:none!important;
+       
+    }
+    #mix-gallery {
+
+        background:none!important;
+       
+    }
+
+    #mango-gallery {
+
+        background:none!important;
+       
+    }
+    #lemon-gallery {
+
+        background:none !important;
+       
+    }
+    #anar-gallery {
+   padding: 20px 0!important;
+        background:none!important;
+       
+    }
+    .gallery {
+        padding: 10px 0!important;
+         
+
+            
+         }
+    #lychee-shop-now {
+
+        background:none!important;
+       
+    }
+    #mix-shop-now {
+
+        background:none!important;
+       
+    }
+    #mango-shop-now {
+
+        background:none!important;
+       
+    }
+    #guava-shop-now {
+
+        background:none!important;
+       
+    }
+    #lemon-shop-now {
+
+        background:none!important;
+       
+    }
+    #anar-shop-now {
+
+        background: none!important;
+        padding: 20px 0!important;
+       
+    }
+
+}

@@ -1,0 +1,601 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Groovy
+Theme URI: https://www.drinkgroovy.com/
+Author: Kuldeep Verma
+Author URI: https://inkwebsolutions.com
+*/
+
+/**
+ * SETTINGS
+ * File-header..........The file header for the themes style.css file.
+ * Fonts................Any font files, if the project needs specific fonts.
+ * Global...............Project-specific, globally available variables.
+ *
+ * TOOLS
+ * Functions............Global functions.
+ * Mixins...............Global mixins.
+ *
+ * GENERIC
+ * Normalize.css........Normalise browser defaults.
+ * Breakpoints..........Mixins and variables for responsive styles
+ * Vertical-margins.....Vertical spacing for the main components.
+ * Reset................Reset specific elements to make them easier to style in other contexts.
+ * Clearings............Clearings for the main components.
+ *
+ * ELEMENTS
+ * Blockquote...........Default blockquote.
+ * Forms................Element-level form styling.
+ * Headings.............H1–H6
+ * Links................Default links.
+ * Lists................Default lists.
+ * Media................Images, Figure, Figcaption, Embed, iFrame, Objects, Video.
+ *
+ * BLOCKS
+ * Audio................Specific styles for the audio block.
+ * Button...............Specific styles for the button block.
+ * Code.................Specific styles for the code block.
+ * Columns..............Specific styles for the columns block.
+ * Cover................Specific styles for the cover block.
+ * File.................Specific styles for the file block.
+ * Gallery..............Specific styles for the gallery block.
+ * Group................Specific styles for the group block.
+ * Heading..............Specific styles for the heading block.
+ * Image................Specific styles for the image block.
+ * Latest comments......Specific styles for the latest comments block.
+ * Latest posts.........Specific styles for the latest posts block.
+ * Legacy...............Specific styles for the legacy gallery.
+ * List.................Specific styles for the list block.
+ * Media text...........Specific styles for the media and text block.
+ * Navigation...........Specific styles for the navigation block.
+ * Paragraph............Specific styles for the paragraph block.
+ * Pullquote............Specific styles for the pullquote block.
+ * Quote................Specific styles for the quote block.
+ * Search...............Specific styles for the search block.
+ * Separator............Specific styles for the separator block.
+ * Spacer...............Specific styles for the spacer block.
+ * Table................Specific styles for the table block.
+ * Verse................Specific styles for the verse block.
+ * Video................Specific styles for the video block.
+ * Utilities............Block alignments.
+ *
+ * COMPONENTS
+ * Header...............Header styles.
+ * Footer...............Footer styles.
+ * Comments.............Comment styles.
+ * Archives.............Archive styles.
+ * 404..................404 styles.
+ * Search...............Search styles.
+ * Navigation...........Navigation styles.
+ * Footer Navigation....Footer Navigation styles.
+ * Pagination...........Pagination styles.
+ * Single...............Single page and post styles.
+ * Posts and pages......Misc, sticky post styles.
+ * Entry................Entry, author biography.
+ * Widget...............Widget styles.
+ * Editor...............Editor styles.
+ *
+ * UTILITIES
+ * A11y.................Screen reader text, prefers reduced motion etc.
+ * Color Palette........Classes for the color palette colors.
+ * Editor Font Sizes....Editor Font Sizes.
+ * Measure..............The width of a line of text, in characters.
+ */
+
+/* Categories 01 to 03 are the basics. */
+
+
+body{
+    font-family: 'Poppins', sans-serif;}
+/* }
+ .head{
+    
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  */
+
+.about-us{
+    background: #48B862;
+    min-height: 700px;
+    
+    
+}
+.navbar{
+    height: 70px!important;
+    z-index: 1000;
+    padding-top: 60px;
+
+}
+header{
+    font-weight: bolder;
+}
+
+#main-nav .soc{
+    font-weight: 600;
+font-size: 20px;
+line-height: 181.5%;
+}
+
+.le{
+    position: relative;
+    bottom:0%;
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+
+#lychee h2{
+    font-family: 'Baloo 2',sans-serif;
+    font-weight: normal;
+font-size: 76px;
+line-height: 104.9%;
+font-weight: bold;
+/* or 101px */
+
+
+/* Color_Pomegranate */
+
+}
+#lychee p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 181.5%;
+/* or 45px */
+
+
+/* Color_Pomegranate */
+
+
+}
+
+
+/* #lychee .lyc{
+    background: url(./images/Group\ 103.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+/* #lychee .man{
+    background: url(./images/Group\ 102.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+/* 
+#lychee .guava{
+    background: url(./images/Group\ 104.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+/* #lychee .pomogrenete{
+    background: url(./images/Group\ 105.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* #lychee .lemon{
+    background: url(./images/Group\ 106.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* #lychee .mix{
+    background: url(./images/Group\ 108.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#martinis .para{
+    font-weight: 500;
+font-size: 66px;
+line-height: 104.4%;
+
+color: #FF6F00;
+}
+#martinis .display-5{
+
+    font-size: 76px;
+
+}
+#collage .display-5{
+
+    font-size: 76px;
+
+}
+.back{
+    background: url(images/foot.png);
+    min-height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imaa{
+ 
+    margin-left: auto;
+}
+
+@media(min-width:1300px){
+    .view{
+        position: relative;
+        margin-top: 50px!important;
+        top: 450px!important;
+    }
+          #mango-specs{
+        padding-top:60px!important;
+        padding-bottom:60px!important;
+    }
+
+
+}
+
+
+@media(min-width:761px)
+{
+      #mango-specs{
+        padding-top:60px!important;
+        padding-bottom:60px!important;
+    }
+  
+ 
+    #lychee-icons{
+               padding-top:60px!important;
+        padding-bottom:60px!important;  
+    }
+    
+    
+    .view{
+    position: relative;
+ top: 405px;
+
+}
+.hey{
+    padding-top: 200px;
+}
+.abt{
+    background: url(images/About/Group.html\ 170.png);
+    min-height: 690px;
+    background-size: contain!important;
+    background-position: right!important;
+    background-repeat: no-repeat;
+}
+.abt1{
+    background: url(images/About/Group.html\ 171.png);
+    min-height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-1{
+    background: url(images/Group.html\ 169.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-2{
+    background: url(images/Group.html\ 165.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-3{
+    background: url(images/Group.html\ 173.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-4{
+    background: url(images/Group.html\ 167.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-5{
+    background: url(images/Group.html\ 168.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-6{
+    background: url(images/Group.html\ 164.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+
+@media(max-width:760px)
+{
+       #lychee-icons{
+              padding-top:20px!important;
+        padding-bottom:20px!important; 
+    }
+    #mango-specs{
+        padding-top:20px!important;
+        padding-bottom:20px!important;
+    }
+ 
+   
+    
+    .view{
+    position: relative;
+    top: 20px !important;
+}
+.pad0{
+    padding: 0!important;
+}
+/*.hey{
+    padding-top: 200px!important;
+  
+}*/
+.abt{
+    background: #48B862!important;
+    min-height: 690px;
+    background-size: cover!important;
+    background-repeat: no-repeat;
+}
+.abt1{
+    background: #FFD62D!important;
+    min-height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-1{
+    background: #FFAFD4;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-2{
+    background: #FFD62D;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-3{
+    background: #48B862;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-4{
+    background: #FFEA00;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-5{
+    background:  #FF6F00;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-6{
+    background:  #FD3955;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+}
+
+.button-text{
+    background: #FF6F00;
+border-radius: 6px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 181.5%;
+/* or 45px */
+text-align: center;
+color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+.we-hope{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 201%;
+/* or 50px */
+color: #FFFFFF;
+}
+
+.there{
+    font-weight: bolder!important;
+    font-size: 60px!important;
+line-height: 104.9%!important;
+/* identical to box height, or 101px */
+font-family: 'Baloo 2',sans-serif;
+letter-spacing: 0.02em!important;
+
+color: #FFFFFF;
+}
+
+
+
+
+.core-team{
+    background: url(images/About/Group.html\ 175.png);
+    min-height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+.menu-wrap {
+    position: fixed;
+    top: 10px;
+    right: 100px;
+    z-index: 1;
+  }
+  
+  .menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+  
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Hamburger Line */
+  .menu-wrap .hamburger > div {
+    position: relative;
+    flex: none;
+    width: 100%;
+    height: 2px;
+    background:#FFBB6B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+  
+  /* Hamburger Lines - Top & Bottom */
+  .menu-wrap .hamburger > div::before,
+  .menu-wrap .hamburger > div::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+  }
+  
+  /* Moves Line Down */
+  .menu-wrap .hamburger > div::after {
+    top: 10px;
+  }
+  
+  /* Toggler Animation */
+  .menu-wrap .toggler:checked + .hamburger > div {
+    transform: rotate(135deg);
+  }
+  
+  /* Turns Lines Into X */
+  .menu-wrap .toggler:checked + .hamburger > div:before,
+  .menu-wrap .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  
+  /* Rotate On Hover When Checked */
+  .menu-wrap .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+  }
+  
+  /* Show Menu */
+  .menu-wrap .toggler:checked ~ .menu {
+    visibility: visible;
+  }
+  
+  .menu-wrap .toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+  }
+  
+  .menu-wrap .toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition:  opacity 0.4s ease 0.4s;
+  }
+  
+  .menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-wrap .menu > div {
+    background: var(--overlay-color);
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vw;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+  }
+  
+  .menu-wrap .menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  
+  .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .menu-wrap .menu > div > div > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.4s ease;
+  }
+  
+  :root {
+    /* --primary-color: #FFBB6B; */
+    --overlay-color: #363636;
+    --menu-speed: 0.75s;
+  }
+  
+  .made{
+    font-family: 'Poppins', sans-serif;
+  }
+
+ */==========sandeep===================*/
+
+
+
+
