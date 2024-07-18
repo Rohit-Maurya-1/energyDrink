@@ -1,7 +1,7 @@
 import React from 'react';
-import images from "../../src/images/uploads/2021/09/bg.jpg";
-import mango from "../../src/images/themes/Groovy/assets/slides/slide-2.jpg";
-import groovy from "../../src/images/themes/Groovy/assets/slides/slide-3.jpg";
+import images from "../../src/images/themes/Groovy/assets/Group 168.png";
+import mango from "../../src/images/themes/Groovy/assets/Group 167.png";
+import groovy from "../../src/images/themes/Groovy/assets/Group 164.png";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={images} className="d-block w-100" alt="slide-1"/>
-        </div>
+      </div>
         <div className="carousel-item">
           <img src={mango} className="d-block w-100" alt="slide-2" />
         </div>
