@@ -1,0 +1,86 @@
+.gradient-brand-color {
+    background: linear-gradient(90deg, rgb(177, 231, 178) 0%, rgba(255, 154, 0, 1) 100%);
+  }
+  
+  .color--white {
+    color: white;
+  }
+  
+  .contact__wrapper {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .contact-info__wrapper {
+    position: relative;
+  }
+  
+  .contact-info__list {
+    padding-left: 20px;
+  }
+  
+  .contact-info__list .position-absolute {
+    left: 0;
+    top: 0;
+  }
+  
+  .contact-form__wrapper {
+    background: #f8f9fa;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .list-style--none {
+    list-style: none;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+  
+  .opacity-06 {
+    opacity: 0.6;
+  }
+  
+  .z-index-100 {
+    z-index: 100;
+  }
+  
+  .z-index-101 {
+    z-index: 101;
+  }
+  
+  .mt-n9 {
+    margin-top: -9rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .text-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .link--right-icon {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .link__icon {
+    margin-left: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .required-field::after {
+    content: "*";
+    color: red;
+    margin-left: 2px;
+  }
+  

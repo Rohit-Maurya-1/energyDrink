@@ -10,6 +10,8 @@ import imgae3 from "../../../../src/images/themes/Groovy/assets/About/dist/3.jpg
 import imgae4 from "../../../../src/images/themes/Groovy/assets/About/dist/4.jpg";
 import imgae5 from "../../../../src/images/themes/Groovy/assets/About/dist/a.jpg";
 import imgae6 from "../../../../src/images/themes/Groovy/assets/About/dist/b.jpg";
+import imgae7 from "../../../../src/images/themes/Groovy/assets/About/dist/c.jpg";
+import imgae8 from "../../../../src/images/themes/Groovy/assets/About/dist/d.jpg";
 
 
 import Style from "../About/About.module.css";
@@ -65,7 +67,7 @@ const About = () => {
             }}
           >
             <div className="col-md-6 hey ">
-            <h1>Our Story</h1>
+            <h1 className="mb-5">Our Story</h1>
               <p className={`${Style.weHope}`}>
                 The journey of Groovy starts from a dream of 2 brothers to
                 create an honest & impactful brand to reflect their
@@ -83,7 +85,7 @@ const About = () => {
             className="row"
             style={{
                backgroundColor: "#FFEADB",
-      height: "600px",
+      height: "550px",
                display: "flex",
                
                alignItems: "start",
@@ -91,9 +93,15 @@ const About = () => {
           >
           <div className="col-md-12 hey mt-5 "style={{display: "flex",
                justifyContent: "center"}}>
-            <img src="https://www.drinkgroovy.com/wp-content/themes/Groovy/images/About/made.svg"/>
+               <img src="https://www.drinkgroovy.com/wp-content/themes/Groovy/images/About/made.svg"/>
             </div>
-             <div className="col col-md-12 "> </div>
+             <div className="col col-md-12 " style={{display:"flex",justifyContent:"center"}}>    <button
+                  className="btn ml-2"
+                  style={{ background: "#9bcb51", fontSize:"23px", fontWeight:"bold", backgroundColor:"rgb(255, 138, 0)",color:"white" }}
+                >
+                  View Products
+                </button>
+                 </div>
           </div>
           <div
         className="row"
@@ -114,14 +122,20 @@ const About = () => {
         </div>
       </div>
 
-   <div class="container mt-5">
-      <div class="row">
-    <div class="col-sm">
-    <div class="card" style={{width: "18rem"}}>
-  <img class="card-img-top" src={imgae1} alt="Card image cap"/>
-
-   </div>
+   <div class="container mt-2">
+   <div className="row mt-3">
+    <div
+      className="col-12 m-3 p-3"
+      style={{
+        borderBottom: "4px solid #ddd",
+        // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+      }}
+    >
+      <h1 style={{ color: "red", fontSize: "60px" }}>Our Distributors</h1>
+   
     </div>
+  </div>
+      <div class="row m-3">
     <div class="col-sm">
     <div class="card" style={{width: "18rem"}}>
   <img class="card-img-top" src={imgae1} alt="Card image cap"/>
@@ -129,12 +143,39 @@ const About = () => {
     </div>
     <div class="col-sm">
     <div class="card" style={{width: "18rem"}}>
-  <img class="card-img-top" src={imgae1} alt="Card image cap"/>
+  <img class="card-img-top" src={imgae2} alt="Card image cap"/>
   </div>
     </div>
     <div class="col-sm">
     <div class="card" style={{width: "18rem"}}>
-  <img class="card-img-top" src={imgae1} alt="Card image cap"/>
+  <img class="card-img-top" src={imgae3} alt="Card image cap"/>
+  </div>
+    </div>
+    <div class="col-sm">
+    <div class="card" style={{width: "18rem"}}>
+  <img class="card-img-top" src={imgae4} alt="Card image cap"/>
+  </div>
+    </div>
+  </div>
+  <div class="row m-3 mt-4">
+    <div class="col-sm">
+    <div class="card" style={{width: "18rem"}}>
+  <img class="card-img-top" src={imgae5} alt="Card image cap"/>
+  </div>
+    </div>
+    <div class="col-sm">
+    <div class="card" style={{width: "18rem"}}>
+  <img class="card-img-top" src={imgae6} alt="Card image cap"/>
+  </div>
+    </div>
+    <div class="col-sm">
+    <div class="card" style={{width: "18rem"}}>
+  <img class="card-img-top" src={imgae7} alt="Card image cap"/>
+  </div>
+    </div>
+    <div class="col-sm">
+    <div class="card" style={{width: "18rem"}}>
+  <img class="card-img-top" src={imgae8} alt="Card image cap"/>
   </div>
     </div>
   </div>

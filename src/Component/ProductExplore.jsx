@@ -17,9 +17,9 @@ import star from "../../src/images/themes/Groovy/assets/star.png";
 import collage from "../../src/images/themes/Groovy/assets/collage.png";
 import POTW from "../../src/images/themes/Groovy/assets/POTW.png";
 import vector from "../../src/images/themes/Groovy/assets/Vector.png";
-import icon1 from "../../src/images/themes/Groovy/assets/icon-1.png"
-import icon2 from "../../src/images/themes/Groovy/assets/icon-2.png"
-import icon3 from "../../src/images/themes/Groovy/assets/icon-3.png"
+import icon1 from "../../src/images/themes/Groovy/assets/icon-1.png";
+import icon2 from "../../src/images/themes/Groovy/assets/icon-2.png";
+import icon3 from "../../src/images/themes/Groovy/assets/icon-3.png";
 import Style from "./Style.module.css";
 
 const ProductExplore = () => {
@@ -51,12 +51,14 @@ const ProductExplore = () => {
         <div className="col-12 col-md-6" style={{ paddingLeft: "23px" }}>
           <img src={mangoContent} alt="Mango Content" className="img-fluid" />
           <div className="row mt-4">
-            <div className={`col-12 col-md-8 ${Style.p}`} style={{color:"#FF8A00"}}>
-              I bring out the little kid in you with vitamins & fiber. I bring
-              everything for your health, skin & hair!
+            <div
+              className={`col-12 col-md-8 ${Style.p}`}
+              style={{ color: "#FF8A00" }}
+            >
+             In every fruit I fashion, In every sachet of Groovy, I thread King of the fruits I am.
             </div>
             <div className="col-12 col-md-2 text-center">
-              <img src={vector} alt="Lyches Content" className="img-fluid"/>
+              <img src={vector} alt="Lyches Content" className="img-fluid" />
             </div>
             <div className="col-12 col-md-2 text-center">
               <button className={`btn btn-warning ${Style.button}`}>
@@ -76,9 +78,11 @@ const ProductExplore = () => {
         <div className="col-12 col-md-6">
           <img src={guavaContent} alt="Guava Content" className="img-fluid" />
           <div className="row mt-4">
-            <div className={`col-12 col-md-8 ${Style.p}`} style={{color:"#48B862"}}>
-              I bring out the little kid in you with vitamins & fiber. I bring
-              everything for your health, skin & hair!
+            <div
+              className={`col-12 col-md-8 ${Style.p}`}
+              style={{ color: "#48B862" }}
+            >
+          I’m usually sweet & small, I might not be the biggest or juiciest but I am an immunity booster.
             </div>
             <div className="col-12 col-md-2 text-center">
               <img src={vector} alt="Lyches Content" className="img-fluid" />
@@ -96,8 +100,7 @@ const ProductExplore = () => {
           <img src={anarContent} alt="Anar Content" className="img-fluid" />
           <div className="row mt-4">
             <div className={`col-12 col-md-8 ${Style.p}`}>
-              I bring out the little kid in you with vitamins & fiber. I bring
-              everything for your health, skin & hair!
+            Your doctor on days when you’re weak. One sip of me & your immunity will be on peak!
             </div>
             <div className="col-12 col-md-2 text-center">
               <img src={vector} alt="Lyches Content" className="img-fluid" />
@@ -118,17 +121,22 @@ const ProductExplore = () => {
           <img src={lemon} alt="Guava" className="img-fluid" />
         </div>
         <div className="col-12 col-md-6">
-          <img src={lemonContent} alt="Guava Content" className="img-fluid" />
+          <img src={lemonContent} alt="lemon Content" className="img-fluid" />
           <div className="row mt-4">
-            <div className={`col-12 col-md-8 ${Style.p}`} style={{color:"#70C513"}}>
-              I bring out the little kid in you with vitamins & fiber. I bring
-              everything for your health, skin & hair!
+            <div
+              className={`col-12 col-md-8 ${Style.p}`}
+              style={{ color: "#70C513" }}
+            >
+            Tangy & sweet. With a dash of mint, your immunity will just be great!
             </div>
             <div className="col-12 col-md-2 text-center">
               <img src={vector} alt="Lyches Content" className="img-fluid" />
             </div>
             <div className="col-12 col-md-2 text-center">
-              <button className={`btn btn-warning ${Style.button}`}style={{background:"#70C513"}}>
+              <button
+                className={`btn btn-warning ${Style.button}`}
+                style={{ background: "#70C513" }}
+              >
                 Explore
               </button>
             </div>
@@ -139,15 +147,20 @@ const ProductExplore = () => {
         <div className="col-12 col-md-6">
           <img src={mix} alt="Guava" className="img-fluid" />
           <div className="row mt-4">
-            <div className={`col-12 col-md-8 ${Style.p}`} style={{color: "#FF6F00"}}>
-              I bring out the little kid in you with vitamins & fiber. I bring
-              everything for your health, skin & hair!
+            <div
+              className={`col-12 col-md-8 ${Style.p}`}
+              style={{ color: "#FF6F00" }}
+            >
+             Groovy has combined all powers in this sachet. The power of health, the power in one!
             </div>
             <div className="col-12 col-md-2 text-center">
               <img src={vector} alt="Lyches Content" className="img-fluid" />
             </div>
             <div className="col-12 col-md-2 text-center">
-              <button className={`btn ${Style.button}`} style={{backgroundColor: "#FF6F00"}}>
+              <button
+                className={`btn ${Style.button}`}
+                style={{ backgroundColor: "#FF6F00" }}
+              >
                 Explore
               </button>
             </div>
@@ -176,14 +189,23 @@ const ProductExplore = () => {
         </div>
         <div className="col-12 col-md-5 p-5 d-flex flex-column justify-content-center align-item-center">
           <div className="d-flex align-items-center justify-content-start p-3">
-             <div className={`${Style.Icon}`} ><img src={icon1}/></div>
-             <h4 className="mr-4">NO Added Preservatives</h4>
-             </div>
-         <div  className="d-flex align-items-center justify-content-start p-3">
-          <div className={`${Style.Icon}`}><img src={icon2}/></div><h4>NO Added Colours</h4></div>
-         <div  className="d-flex align-items-center justify-content-start p-3">
-          <div  className={`${Style.Icon}`}><img src={icon3}/></div><h4>Finest Quality Pulp</h4></div>
-        
+            <div className={`${Style.Icon}`}>
+              <img src={icon1} />
+            </div>
+            <h4 className="mr-4">NO Added Preservatives</h4>
+          </div>
+          <div className="d-flex align-items-center justify-content-start p-3">
+            <div className={`${Style.Icon}`}>
+              <img src={icon2} />
+            </div>
+            <h4>NO Added Colours</h4>
+          </div>
+          <div className="d-flex align-items-center justify-content-start p-3">
+            <div className={`${Style.Icon}`}>
+              <img src={icon3} />
+            </div>
+            <h4>Finest Quality Pulp</h4>
+          </div>
         </div>
       </div>
 
@@ -191,8 +213,8 @@ const ProductExplore = () => {
         className="row"
         style={{
           background: "#FFEADB",
-             color: "#FF6F00"
-       }}
+          color: "#FF6F00",
+        }}
       >
         <div className="col-12 col-md-5 d-flex align-items-center justify-content-start">
           <div className="star" style={{ marginRight: "23px" }}>
@@ -201,8 +223,10 @@ const ProductExplore = () => {
           <h1 className={`${Style.glassSection}`}> Great With</h1>
         </div>
         <div className="col-12 col-md-2 d-flex align-items-center justify-content-centerb">
-          <div >
-            <h1 className={`${Style.glassSection}`}>martinis, sodas, desserts, yoghurt, and more.</h1>
+          <div>
+            <h1 className={`${Style.glassSection}`}>
+              martinis, sodas, desserts, yoghurt, and more.
+            </h1>
           </div>
         </div>
         <div className="col-12 col-md-5 d-flex flex-column align-items-end justify-content-center">
@@ -221,11 +245,26 @@ const ProductExplore = () => {
           <img src={collage} alt="Guava" className="img-fluid" width="700px" />
         </div>
         <div className="col-12 col-md-5 d-flex align-items-start justify-content-start">
-          <div style={{padding:"60px"}}>
+          <div style={{ padding: "60px" }}>
             <h1 className={`${Style.glassSection}`}>We got featured on</h1>
-            <div style={{marginTop:"50px"}}> <img src={POTW} alt="Guava" className="img-fluid" /></div>
+            <div style={{ marginTop: "50px" }}>
+              {" "}
+              <img src={POTW} alt="Guava" className="img-fluid" />
+            </div>
+            <div className="mt-5">
+              <button
+                className="btn shadow-sm"
+                style={{
+                  background: "rgba(0, 0, 0, 0.1)",
+                  padding: "10px 20px",
+                  margin: "10px",
+                  color:"white"
+                }}
+              >
+                Read
+              </button>
+            </div>
           </div>
-       
         </div>
       </div>
     </div>

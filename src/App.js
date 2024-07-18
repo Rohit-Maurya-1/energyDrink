@@ -10,6 +10,7 @@ import Home from './Component/Pages/Home/Home';
 import { Route,Routes } from 'react-router-dom';
 import Shop from './Component/Pages/Shop/Shop';
 import Contact from './Component/Pages/Contact/Contact';
+import Media from './Component/Pages/Media/Media';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Route path='/'element={<Home/>}/>
     <Route path='/about'element={<About/>}/>
     <Route path='/shop'element={<Shop/>}/>
+    <Route path='/media'element={<Media/>}/>
     <Route path='/contact'element={<Contact/>}/>
   </Routes>
    </>
