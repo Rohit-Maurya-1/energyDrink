@@ -27,17 +27,8 @@
     padding: 10px 20px;
     border-radius: 5px;
   }
-  
-  /* .navbar-custom {
-      background-color: #ff4d4d;
-    } */
-  
-  /* .navbar-custom .navbar-nav .nav-link {
-      color: white;
-    } */
-  
   .breadcrumb {
-    background-color: rgba(128, 0, 0, 0.8);
+    /* background-color: rgba(128, 0, 0, 0.8); */
     text-align: center;
     width: 200px;
     padding: 20px;

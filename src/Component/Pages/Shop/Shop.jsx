@@ -32,7 +32,7 @@ const Shop = () => {
                 </Link>
               </li>
               <li class="breadcrumb-item">
-                <span style={{ color: "white", fontSize: "20px" }}>+</span>
+                <span style={{ color: "white", fontSize: "20px" }}>/</span>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
                 <span style={{ color: "white", fontSize: "18px" }}>Shop</span>

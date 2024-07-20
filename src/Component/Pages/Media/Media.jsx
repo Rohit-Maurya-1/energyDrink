@@ -8,20 +8,20 @@ import "./media.css"
 const Media = () => {
   return (
      <Layout>
-     <div class="banner">
+     <div className="banner">
     <img src={bannerImage} alt="Groovy Fruit Drink Banner"/>
-    <div class="banner-text">
+    <div className="banner-text">
       <h2>Media</h2>
       <nav aria-label="breadcrumb">
-        <ol class="breadcrumb" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-          <li class="breadcrumb-item"><Link to="/"><span style={{color:"white",fontSize:"18px"}}>Home</span></Link></li>
-          <li class="breadcrumb-item"><span style={{color:"white",fontSize:"20px"}}>+</span></li>
-          <li class="breadcrumb-item active" aria-current="page"><span style={{color:"white",fontSize:"18px"}}>Media</span></li>
+        <ol className="breadcrumb" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+          <li className="breadcrumb-item"><Link to="/"><span style={{color:"white",fontSize:"18px"}}>Home</span></Link></li>
+          <li className="breadcrumb-item"><span style={{color:"white",fontSize:"20px"}}>+</span></li>
+          <li className="breadcrumb-item active" aria-current="page"><span style={{color:"white",fontSize:"18px"}}>Media</span></li>
         </ol>
       </nav>
     </div>
   </div>
-  <div class="container mt-5">
+  <div className="container mt-5">
     <div className='m-5' style={{fontSize:"30px",fontWeight:"bold"}}>Featured</div>
     <div className="row">
     <div className="col-md-6 d-flex justify-content-center">

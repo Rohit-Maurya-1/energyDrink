@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../src/images/themes/Groovy/assets/log.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Style from "../Layout/Style.module.css";
 
 const Navbar = () => {
+  const location = useLocation();
+  const [activeLink, setActiveLink] = useState(location.pathname);
+
+  const handleLinkClick = (path) => {
+    setActiveLink(path);
+  };
+
   return (
     <>
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
-        style={{ backgroundColor: "#9bcb5e", fontWeight: "bold"}}
+        style={{ backgroundColor: "#9bcb5e", fontWeight: "bold" }}
       >
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img src={logo} alt="Logo" className="img-fluid" width="110px"/>
+            <img src={logo} alt="Logo" className="img-fluid" width="110px" />
           </Link>
           <button
             className="navbar-toggler"
@@ -34,53 +41,29 @@ const Navbar = () => {
                 justifyContent: "space-between",
               }}
             >
-              <li className="nav-item">
-                <Link
-                  className={`nav-link ${Style?.items}`}
-                  aria-current="page"
-                  to="/"
-                >
-                  Home
-                </Link>
-              </li>
-              <li className={`nav-item ${Style?.items}`}>
-                <Link className={`nav-link ${Style?.items}`} to="/about">
-                  About
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className={`nav-link ${Style?.items}`} to="/shop">
-                  Shop
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className={`nav-link ${Style?.items}`} to="/media">
-                  Media
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className={`nav-link ${Style?.items}`} to="/contact">
-                  Contact
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className={`nav-link ${Style?.items}`} to="">
-                <i class="bi bi-person"></i>
-                </Link>
-              </li>
-           
-              <li className="nav-item">
-                <Link className={`nav-link ${Style?.items}`} to="">
-                     <i class="bi bi-heart"></i>
-                </Link>
-           
-              </li>
-              <li className="nav-item">
-                <Link className={`nav-link ${Style?.items}`} to="">
-                      <i class="bi bi-bag-fill"></i>
-                </Link>
-           
-              </li>
+              {["/", "/about", "/shop", "/media", "/contact"].map((path, index) => (
+                <li className="nav-item" key={index}>
+                  <Link
+                    className={`nav-link ${Style.items} ${activeLink === path ? "active" : ""}`}
+                    aria-current="page"
+                    to={path}
+                    onClick={() => handleLinkClick(path)}
+                  >
+                    {path.slice(1).charAt(0).toUpperCase() + path.slice(2) || "Home"}
+                  </Link>
+                </li>
+              ))}
+              {["bi-person", "bi-heart", "bi-bag-fill"].map((icon, index) => (
+                <li className="nav-item" key={index + 5}>
+                  <Link
+                    className={`nav-link ${Style.items}`}
+                    to=""
+                    onClick={() => handleLinkClick("")}
+                  >
+                    <i className={`bi ${icon}`}></i>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

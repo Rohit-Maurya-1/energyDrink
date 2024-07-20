@@ -10,81 +10,81 @@ const Contact = () => {
           className="contact__wrapper shadow-lg mt-n9"
           style={{ minHeight: "550px" }}
         >
-          <div className="row no-gutters" style={{ minHeight:"550px"}}>
-            <div className="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
-              <h3 className="color--white mb-5">Contact</h3>
-              <ul className="contact-info__list list-style--none position-relative z-index-101">
-                <li className="mb-4 pl-4">
-                  <span className="position-absolute">
-                    <i className="fas fa-envelope"></i>
-                  </span>{" "}
-                 </li>
-                <li className="mb-4 pl-4">
-                  <span className="position-absolute">
-                    <i className="fas fa-phone"></i>
-                  </span>{" "}
-                 
-                </li>
-                <li className="mb-4 pl-4">
-                  <span className="position-absolute">
-                    <i className="fas fa-map-marker-alt"></i>
-                  </span>{" "}
-                    <div className="mt-3">
-                    <a
-                      href="https://www.google.com/maps"
-                      target="_blank"
-                      className="text-link link--right-icon text-white"
-                      rel="noopener noreferrer"
-                    >
-                      Itinéraire <i className="link__icon fa fa-directions"></i>
-                    </a>
-                  </div>
-                </li>
-              </ul>
+          <div className="row no-gutters" style={{ minHeight: "550px" }}>
+          <div className="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
+  <h3 className="color--white mb-5">Contact</h3>
+  <ul className="contact-info__list">
+    <li>
+      <strong>Name:</strong> John Doe
+    </li>
+    <li>
+      <strong>Email:</strong> john.doe@example.com
+    </li>
+    <li>
+      <strong>Phone No.:</strong> (123) 456-7890
+    </li>
+    <li>
+      <strong>Area:</strong> Downtown
+    </li>
+  </ul>
+  <figure
+    className="figure position-absolute m-0 opacity-06 z-index-100"
+    style={{ bottom: "0", right: "10px" }}
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      width="444px"
+      height="626px"
+    >
+      <defs>
+        <linearGradient
+          id="PSgrad_1"
+          x1="0%"
+          x2="81.915%"
+          y1="57.358%"
+          y2="0%"
+        >
+          <stop
+            offset="0%"
+            stopColor="rgb(255,255,255)"
+            stopOpacity="1"
+          ></stop>
+          <stop
+            offset="100%"
+            stopColor="rgb(0,54,207)"
+            stopOpacity="0"
+          ></stop>
+        </linearGradient>
+      </defs>
+      <path
+        fillRule="evenodd"
+        opacity="0.302"
+        fill="rgb(72, 155, 248)"
+        d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z"
+      ></path>
+      <path
+        fill="url(#PSgrad_1)"
+        d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z"
+      ></path>
+    </svg>
+  </figure>
+  <style jsx>{`
+    .contact-info__list {
+      list-style-type: none;
+      padding: 0;
+      color: white;
+    }
+    .contact-info__list li {
+      margin-bottom: 1rem;
+    }
+    .contact-info__list strong {
+      display: inline-block;
+      width: 100px;
+    }
+  `}</style>
+</div>
 
-              <figure
-                className="figure position-absolute m-0 opacity-06 z-index-100"
-                style={{ bottom: "0", right: "10px" }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
-                  width="444px"
-                  height="626px"
-                >
-                  <defs>
-                    <linearGradient
-                      id="PSgrad_1"
-                      x1="0%"
-                      x2="81.915%"
-                      y1="57.358%"
-                      y2="0%"
-                    >
-                      <stop
-                        offset="0%"
-                        stopColor="rgb(255,255,255)"
-                        stopOpacity="1"
-                      ></stop>
-                      <stop
-                        offset="100%"
-                        stopColor="rgb(0,54,207)"
-                        stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                  <path
-                    fillRule="evenodd"
-                    opacity="0.302"
-                    fill="rgb(72, 155, 248)"
-                    d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z"
-                  ></path>
-                  <path
-                    fill="url(#PSgrad_1)"
-                    d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z"
-                  ></path>
-                </svg>
-              </figure>
-            </div>
 
             <div className="col-lg-7 contact-form__wrapper p-5 order-lg-1">
               <form
@@ -173,7 +173,7 @@ const Contact = () => {
                       name="submit"
                       className="btn btn-success"
                     >
-                      SHOW US SOME LOVE
+                      Submit
                     </button>
                   </div>
                 </div>
@@ -181,6 +181,17 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <div className="mt-3">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224262.4366929066!2d76.89303519453124!3d28.566742500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3540d1f48e9%3A0x8698079cd7bcedd0!2sThe%20Groove%20Stage!5e0!3m2!1sen!2sin!4v1721460408105!5m2!1sen!2sin"
+    width="100%"
+    height="600"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
       </div>
     </Layout>
   );

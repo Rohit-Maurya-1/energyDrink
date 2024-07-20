@@ -5,7 +5,7 @@ import groovy from "../../src/images/themes/Groovy/assets/Group 164.png";
 
 const Header = () => {
   return (
-    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-interval="3000" >
+    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={images} className="d-block w-100" alt="slide-1"/>
@@ -44,7 +44,13 @@ const Header = () => {
           padding: 10px 20px;
           color: white;
           cursor: pointer;
-          z-index: 5;
+          z-index: 2;
+          border-radius: 19px;
+          font-size: 1.2em;
+          transition: background-color 0.3s ease;
+        }
+        .carousel-control-middle:hover {
+          background-color: rgba(0, 0, 0, 0.5);
         }
       `}</style>
     </div>
