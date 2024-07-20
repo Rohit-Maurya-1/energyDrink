@@ -5,33 +5,31 @@ import "./contact.css";
 const Contact = () => {
   return (
     <Layout>
-      <div className="container" style={{marginTop:"300px"}}>
-        <div className="contact__wrapper shadow-lg mt-n9" style={{height:"550px"}}>
-          <div className="row no-gutters"style={{height:"550px"}}>
+      <div className="container" style={{ marginTop: "300px" }}>
+        <div
+          className="contact__wrapper shadow-lg mt-n9"
+          style={{ minHeight: "550px" }}
+        >
+          <div className="row no-gutters" style={{ minHeight:"550px"}}>
             <div className="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
               <h3 className="color--white mb-5">Contact</h3>
-
               <ul className="contact-info__list list-style--none position-relative z-index-101">
                 <li className="mb-4 pl-4">
                   <span className="position-absolute">
                     <i className="fas fa-envelope"></i>
                   </span>{" "}
-                  test@test.com
-                </li>
+                 </li>
                 <li className="mb-4 pl-4">
                   <span className="position-absolute">
                     <i className="fas fa-phone"></i>
                   </span>{" "}
-                  +32 71 123 456
+                 
                 </li>
                 <li className="mb-4 pl-4">
                   <span className="position-absolute">
                     <i className="fas fa-map-marker-alt"></i>
                   </span>{" "}
-                  E6K
-                  <br /> Quai de la gare
-                  <br /> 6000 Charleroi
-                  <div className="mt-3">
+                    <div className="mt-3">
                     <a
                       href="https://www.google.com/maps"
                       target="_blank"
@@ -98,19 +96,17 @@ const Contact = () => {
                   <div className="col-sm-6 mb-3">
                     <div className="form-group">
                       <label className="required-field" htmlFor="firstName">
-                      Name
+                        Name
                       </label>
                       <input
                         type="text"
                         className="form-control"
                         id="firstName"
                         name="firstName"
-                        placeholder="Rohit"
+                        placeholder="Enter your name"
                       />
                     </div>
                   </div>
-
-                
 
                   <div className="col-sm-6 mb-3">
                     <div className="form-group">
@@ -122,26 +118,30 @@ const Contact = () => {
                         className="form-control"
                         id="email"
                         name="email"
-                        placeholder="rohit@dupont.com"
+                        placeholder="Enter your email"
                       />
                     </div>
                   </div>
 
                   <div className="col-sm-6 mb-3">
                     <div className="form-group">
-                      <label className="required-field" htmlFor="phone">Phone No.</label>
+                      <label className="required-field" htmlFor="phone">
+                        Phone No.
+                      </label>
                       <input
                         type="tel"
                         className="form-control"
                         id="phone"
                         name="phone"
-                        placeholder="91 71 123 456"
+                        placeholder="Phone No"
                       />
                     </div>
                   </div>
                   <div className="col-sm-6 mb-3">
                     <div className="form-group">
-                      <label className="required-field" htmlFor="Customer">Customer</label>
+                      <label className="required-field" htmlFor="Customer">
+                        Customer
+                      </label>
                       <input
                         type="text"
                         className="form-control"
@@ -155,14 +155,14 @@ const Contact = () => {
                   <div className="col-sm-12 mb-3">
                     <div className="form-group">
                       <label className="required-field" htmlFor="Area">
-                       Area
+                        Area
                       </label>
                       <textarea
                         className="form-control"
                         id="Area"
                         name="Area"
                         rows="4"
-                        placeholder="delhi"
+                        placeholder="Enter your Area"
                       ></textarea>
                     </div>
                   </div>
@@ -171,9 +171,9 @@ const Contact = () => {
                     <button
                       type="submit"
                       name="submit"
-                      className="btn btn-primary"
+                      className="btn btn-success"
                     >
-                    SHOW US SOME LOVE
+                      SHOW US SOME LOVE
                     </button>
                   </div>
                 </div>

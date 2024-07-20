@@ -3,21 +3,21 @@
     no-repeat;
   background-size: cover;
 
-  height: 700px;
+  height: 600px;
 }
 .background2{
     background: url("/src/images/themes/Groovy/assets/Group 171.png")
     no-repeat;
   background-size: cover;
 
-  height: 700px;
+  height: 600px;
 }
 .background3{
     background: url("/src/images/themes/Groovy/assets/Group 175.png")
     no-repeat;
   background-size: cover;
  
-  height: 700px;
+  height: 500px;
 
 }
 
@@ -25,7 +25,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 201%;
     color: #FFFFFF;
 }

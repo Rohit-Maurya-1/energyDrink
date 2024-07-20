@@ -24,10 +24,10 @@ const Media = () => {
   <div class="container mt-5">
     <div className='m-5' style={{fontSize:"30px",fontWeight:"bold"}}>Featured</div>
     <div className="row">
-    <div className="col-6 d-flex justify-content-end">
+    <div className="col-md-6 d-flex justify-content-center">
       <img src={featuredImage} width="400" height="400" />
     </div>
-    <div className="col-6 d-flex justify-content-start">
+    <div className="col-md-6 d-flex justify-content-center">
       <video width="400" height="400" controls>
         <source src="Featured-2.mp4" type="video/mp4" />
       </video>

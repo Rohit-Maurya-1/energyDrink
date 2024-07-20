@@ -32,17 +32,21 @@ const ProductExplore = () => {
         <div className="col-12 col-md-6">
           <img src={lychesContent} alt="Lyches Content" className="img-fluid" />
           <div className="row mt-4">
-            <div className={`col-12 col-md-8 ${Style.p}`}>
+            <div className={`col-12 col-md-7 ${Style.p}`}>
               I bring out the little kid in you with vitamins & fiber. I bring
               everything for your health, skin & hair!
             </div>
-            <div className="col-12 col-md-2 text-center">
-              <img src={vector} alt="Lyches Content" className="img-fluid" />
-            </div>
-            <div className="col-12 col-md-2 text-center">
-              <button className={`btn btn-danger ${Style.button}`}>
+            <div className="col-12 col-md-4 m-4">
+               <div className="row">
+               <div className="col-12 col-md-12" style={{display:"flex",justifyContent:"space-around"}}>
+               <img src={vector} alt="Lyches Content" className="img-fluid" />
+               <button className={`btn btn-danger ${Style.button}`}>
                 Explore
               </button>
+                </div>
+             
+               </div>
+      
             </div>
           </div>
         </div>
@@ -52,18 +56,22 @@ const ProductExplore = () => {
           <img src={mangoContent} alt="Mango Content" className="img-fluid" />
           <div className="row mt-4">
             <div
-              className={`col-12 col-md-8 ${Style.p}`}
+              className={`col-12 col-md-7 ${Style.p}`}
               style={{ color: "#FF8A00" }}
             >
              In every fruit I fashion, In every sachet of Groovy, I thread King of the fruits I am.
             </div>
-            <div className="col-12 col-md-2 text-center">
-              <img src={vector} alt="Lyches Content" className="img-fluid" />
-            </div>
-            <div className="col-12 col-md-2 text-center">
-              <button className={`btn btn-warning ${Style.button}`}>
+            <div className="col-12 col-md-4 m-4">
+               <div className="row">
+               <div className="col-12 col-md-12" style={{display:"flex",justifyContent:"space-around"}}>
+               <img src={vector} alt="Lyches Content" className="img-fluid" />
+               <button className={`btn btn-warning ${Style.button}`}>
                 Explore
               </button>
+                </div>
+             
+               </div>
+      
             </div>
           </div>
         </div>
@@ -79,36 +87,44 @@ const ProductExplore = () => {
           <img src={guavaContent} alt="Guava Content" className="img-fluid" />
           <div className="row mt-4">
             <div
-              className={`col-12 col-md-8 ${Style.p}`}
+              className={`col-12 col-md-7 ${Style.p}`}
               style={{ color: "#48B862" }}
             >
           I’m usually sweet & small, I might not be the biggest or juiciest but I am an immunity booster.
             </div>
-            <div className="col-12 col-md-2 text-center">
-              <img src={vector} alt="Lyches Content" className="img-fluid" />
-            </div>
-            <div className="col-12 col-md-2 text-center">
-              <button className={`btn btn-success ${Style.button}`}>
+            <div className="col-12 col-md-4 m-4">
+               <div className="row">
+               <div className="col-12 col-md-12" style={{display:"flex",justifyContent:"space-around"}}>
+               <img src={vector} alt="Lyches Content" className="img-fluid" />
+               <button className={`btn btn-success ${Style.button}`}>
                 Explore
               </button>
+                </div>
+             
+               </div>
+      
             </div>
           </div>
         </div>
       </div>
       <div className="row">
-        <div className="col-12 col-md-6" style={{ paddingLeft: "23px" }}>
+        <div className="col-12 col-md-6" style={{ paddingLeft: "20px" }}>
           <img src={anarContent} alt="Anar Content" className="img-fluid" />
           <div className="row mt-4">
-            <div className={`col-12 col-md-8 ${Style.p}`}>
+            <div className={`col-12 col-md-7 ${Style.p}`}>
             Your doctor on days when you’re weak. One sip of me & your immunity will be on peak!
             </div>
-            <div className="col-12 col-md-2 text-center">
-              <img src={vector} alt="Lyches Content" className="img-fluid" />
-            </div>
-            <div className="col-12 col-md-2 text-center">
-              <button className={`btn btn-danger ${Style.button}`}>
+            <div className="col-12 col-md-4 m-4">
+               <div className="row">
+               <div className="col-12 col-md-12" style={{display:"flex",justifyContent:"space-around"}}>
+               <img src={vector} alt="Lyches Content" className="img-fluid" />
+               <button className={`btn btn-danger ${Style.button}`}>
                 Explore
               </button>
+                </div>
+             
+               </div>
+      
             </div>
           </div>
         </div>
@@ -124,45 +140,48 @@ const ProductExplore = () => {
           <img src={lemonContent} alt="lemon Content" className="img-fluid" />
           <div className="row mt-4">
             <div
-              className={`col-12 col-md-8 ${Style.p}`}
+              className={`col-12 col-md-7 ${Style.p}`}
               style={{ color: "#70C513" }}
             >
             Tangy & sweet. With a dash of mint, your immunity will just be great!
             </div>
-            <div className="col-12 col-md-2 text-center">
-              <img src={vector} alt="Lyches Content" className="img-fluid" />
-            </div>
-            <div className="col-12 col-md-2 text-center">
-              <button
-                className={`btn btn-warning ${Style.button}`}
-                style={{ background: "#70C513" }}
-              >
+            <div className="col-12 col-md-4 m-4">
+               <div className="row">
+               <div className="col-12 col-md-12" style={{display:"flex",justifyContent:"space-around"}}>
+               <img src={vector} alt="Lyches Content" className="img-fluid" />
+               <button className={`btn btn-success ${Style.button}`}>
                 Explore
               </button>
+                </div>
+             
+               </div>
+      
             </div>
           </div>
         </div>
       </div>
       <div className="row">
         <div className="col-12 col-md-6">
-          <img src={mix} alt="Guava" className="img-fluid" />
+          <img src={mix} alt="mix" className="img-fluid" />
           <div className="row mt-4">
             <div
-              className={`col-12 col-md-8 ${Style.p}`}
+              className={`col-12 col-md-7 ${Style.p}`}
               style={{ color: "#FF6F00" }}
             >
              Groovy has combined all powers in this sachet. The power of health, the power in one!
             </div>
-            <div className="col-12 col-md-2 text-center">
-              <img src={vector} alt="Lyches Content" className="img-fluid" />
-            </div>
-            <div className="col-12 col-md-2 text-center">
-              <button
-                className={`btn ${Style.button}`}
-                style={{ backgroundColor: "#FF6F00" }}
-              >
+            <div className="col-12 col-md-4 m-4">
+               <div className="row">
+               <div className="col-12 col-md-12" style={{display:"flex",justifyContent:"space-around"}}>
+               <img src={vector} alt="Lyches Content" className="img-fluid" />
+               <button className={`btn ${Style.button}`}
+                style={{backgroundColor:"#FF6F00"}}>
                 Explore
               </button>
+                </div>
+             
+               </div>
+      
             </div>
           </div>
         </div>
@@ -255,7 +274,8 @@ const ProductExplore = () => {
               <button
                 className="btn shadow-sm"
                 style={{
-                  background: "rgba(0, 0, 0, 0.1)",
+                  background: "rgba(1, 0, 0, 0.1)",
+                  fontWeight:"bold",
                   padding: "10px 20px",
                   margin: "10px",
                   color:"white"

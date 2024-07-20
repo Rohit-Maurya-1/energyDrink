@@ -11,8 +11,8 @@ const Navbar = () => {
         style={{ backgroundColor: "#9bcb5e", fontWeight: "bold"}}
       >
         <div className="container">
-          <Link className="navbar-brand" href="#">
-            <img src={logo} alt="Logo" className="img-fluid" width="120px"/>
+          <Link className="navbar-brand" to="/">
+            <img src={logo} alt="Logo" className="img-fluid" width="110px"/>
           </Link>
           <button
             className="navbar-toggler"

@@ -5,11 +5,11 @@ import groovy from "../../src/images/themes/Groovy/assets/Group 164.png";
 
 const Header = () => {
   return (
-    <div id="carouselExampleFade" className="carousel slide carousel-fade">
+    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-interval="3000" >
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={images} className="d-block w-100" alt="slide-1"/>
-      </div>
+        </div>
         <div className="carousel-item">
           <img src={mango} className="d-block w-100" alt="slide-2" />
         </div>
@@ -25,11 +25,26 @@ const Header = () => {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
+      <button className="carousel-control-middle" type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0">
+        <span className="visually">View Products</span>
+      </button>
       <style jsx>{`
         .carousel-item img {
           object-fit: cover;
-           height: 750px;
+          height: 750px;
           width: 100%;
+        }
+        .carousel-control-middle {
+          position: absolute;
+          top: 60%;
+          left: 40%;
+          transform: translate(-50%, -50%);
+          background-color: rgba(0, 0, 0, 0.3);
+          border: none;
+          padding: 10px 20px;
+          color: white;
+          cursor: pointer;
+          z-index: 5;
         }
       `}</style>
     </div>
